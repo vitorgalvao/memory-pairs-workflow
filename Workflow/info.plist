@@ -1395,7 +1395,6 @@ function run() {
 
   return JSON.stringify({
     variables: { delete_state: allVisible },
-    skipknowledge: true,
     preselect: selected,
     items: sfItems
   })
@@ -1421,6 +1420,8 @@ function run() {
 				<integer>4</integer>
 				<key>filterable</key>
 				<false/>
+				<key>fixedorder</key>
+				<true/>
 				<key>imageaspect</key>
 				<integer>0</integer>
 				<key>inputfile</key>
